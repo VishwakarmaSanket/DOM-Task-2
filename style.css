@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(./Gilroy-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .parent {
+  height: auto;
+  width: auto;
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .parent .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+main .parent .top h1 {
+  color: #24cfa5;
+  font-size: 2rem;
+}
+main .parent .top .box {
+  height: 16rem;
+  width: 16rem;
+  background-color: #333;
+  border-radius: 1rem;
+}
+main .parent .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .parent .bottom .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .parent .bottom .text h1 {
+  font-size: 1.6rem;
+  color: white;
+}
+main .parent .bottom button {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background: #24cfa5;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+main .parent .bottom button:active {
+  background-color: #1da482;
+}/*# sourceMappingURL=style.css.map */
